@@ -1,0 +1,57 @@
+.post-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-title {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333; 
+}
+
+.post-text {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.post-created-at {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #888; 
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.upvote-icon,
+.downvote-icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: #888; 
+}
+
+.upvote-icon:hover,
+.downvote-icon:hover {
+  color: #ff4500; 
+}
+
+.upvotes-count {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #888; 
+}
+
+.post-divider {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,73 @@
+
+.post-details-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+
+.post-details-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-details-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.post-details-created-at {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.upvote-icon {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.upvotes-count {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.initial-comment-container {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.button {
+  background-color: #878A8C;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comments-container {
+  max-width: 900px;
+}
+
